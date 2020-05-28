@@ -73,7 +73,7 @@ echo -e "${A2C2_CLUSTERNAME} college partition usage report between $START and $
     mutt -F $MUTTCONFIG \
 	-a /tmp/${FILENAME}_${A2C2_CLUSTERNAME}.csv \
 	-a /tmp/${FILENAME}_${A2C2_CLUSTERNAME}.xls \
-	-b Lee.Reynolds@asu.edu \
+	-b jetching@asu.edu \
 	-s "${A2C2_CLUSTERNAME} college partition usage report $START : $END" \
 	-- $EMAIL
 
