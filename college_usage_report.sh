@@ -72,7 +72,7 @@ echo -e "${A2C2_CLUSTERNAME} college usage report between $START and $END\n\nGen
     mutt -F $MUTTCONFIG \
 	-a /tmp/${FILENAME}_${A2C2_CLUSTERNAME}.csv \
 	-a /tmp/${FILENAME}_${A2C2_CLUSTERNAME}.xls \
-	-b Lee.Reynolds@asu.edu \
+	-b jetching@asu.edu \
 	-s "${A2C2_CLUSTERNAME} college usage report $START : $END" \
 	-- $EMAIL
 
